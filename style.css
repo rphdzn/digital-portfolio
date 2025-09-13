@@ -4,7 +4,7 @@
     font-family: "DM Sans", sans-serif;
 }
 
-
+/*text styles*/
 h1{
     font-family: var(font-family);
     font-weight: 700;
@@ -47,8 +47,9 @@ p{
     }
 
     .intro{
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     text-align: center;
+    font-weight: 400;
     margin: 0 7rem 3rem 7rem;
 
     }
@@ -60,6 +61,50 @@ p{
     padding: 0px 20px 5px 20px;
     }
 
+a.active{
+    font-family: var(font-family);
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    
+}
+
+a.inactive{
+    font-family: var(font-family);
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 10px 10px 10px 5px;
+}
+
+a:hover{
+    color:#4090ff;
+}
+
+/*section styles*/
+
+.tab{
+    background-color:#1d37b8;
+    padding: 10px 0px 0px 0px;
+    height: 2.5rem;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    box-shadow: 1px 1px 5px 3px #4646461a;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.tab a.active{
+    background-color:#ffffff;
+    color:#1d37b8;
+}
 
 header{
     margin: 16.5rem 0rem 19.1rem 0rem;
@@ -80,6 +125,13 @@ section{
     margin-bottom: 2rem;
     padding: .5rem;
     border-radius: 1rem;
+}
+
+.hyperlinks{
+    font-family: var(font-family);
+    font-size: 2rem;
+    text-align: center;
+
 }
 
 .card-container {
@@ -145,6 +197,7 @@ section{
 
 }
 
+/* image styles */
 img{
     width: 90%;
     height: auto;
